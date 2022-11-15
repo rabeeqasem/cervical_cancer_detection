@@ -1,0 +1,5 @@
+outs:
+- md5: 8ecda15c65b009f96750eed1de75fe55.dir
+  size: 846496462
+  nfiles: 400
+  path: CRIC_FullSlide_dataset

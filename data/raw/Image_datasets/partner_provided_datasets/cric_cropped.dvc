@@ -1,0 +1,5 @@
+outs:
+- md5: 39e7d192a4c4703be3463853d845b338.dir
+  size: 321198514
+  nfiles: 20595
+  path: cric_cropped

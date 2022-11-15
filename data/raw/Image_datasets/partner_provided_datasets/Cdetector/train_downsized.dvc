@@ -1,0 +1,5 @@
+outs:
+- md5: 8c85a4132d7c919afb75d9b290011f4f.dir
+  size: 5129281249
+  nfiles: 6669
+  path: train_downsized

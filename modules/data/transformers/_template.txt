@@ -1,0 +1,20 @@
+import os
+import sys
+sys.path.append('..')
+
+import cv2
+
+import resources.utils as utils
+
+# CREATE YOUR FUNCTION HERE
+def transform_function(image):
+    return #some image 
+
+# CHANGE THE NAME OF THE FUNCTION HERE
+def test_transformer():
+    transformer = utils.CervTransformer(name=<Put Transform Function Name Here>, transfunc=transform_function)
+    print(transformer)
+    transformer.test() # Put grayscale=True if we expect a grayscale image transformed
+
+if __name__ == '__main__':
+    test_transformer()

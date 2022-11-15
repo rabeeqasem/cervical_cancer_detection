@@ -1,0 +1,5 @@
+outs:
+- md5: 028df4e2ba9bb09056091ab12fa944a6.dir
+  size: 789136384
+  nfiles: 1775
+  path: cervix93_dataset_structured

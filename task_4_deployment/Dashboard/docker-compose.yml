@@ -1,0 +1,15 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    image: dashboard-api
+    ports:
+      - "8000:8000"
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    image: dashboard-client
+    ports:
+      - "3000:80"

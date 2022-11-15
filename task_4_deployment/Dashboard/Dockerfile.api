@@ -1,0 +1,13 @@
+FROM python:3.9
+
+COPY requirements.txt .
+
+RUN apt-get update
+RUN apt-get install ffmpeg libsm6 libxext6  -y
+RUN pip install --upgrade pip
+RUN pip install --no-cache-dir --default-timeout=100 -r requirements.txt && rm requirements.txt
+
+COPY ./api /api
+
+EXPOSE 8000
+CMD ["gunicorn", "api.wsgi:app", "--bind", ":8000", "--timeout", "600"]

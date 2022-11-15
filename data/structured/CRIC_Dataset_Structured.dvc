@@ -1,0 +1,5 @@
+outs:
+- md5: 6da34cd22d83fdfb17206d7dce06a053.dir
+  size: 846496462
+  nfiles: 400
+  path: CRIC_Dataset_Structured
